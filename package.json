@@ -1,0 +1,16 @@
+{
+  "name": "github-growl",
+  "description": "Feeding Events from GitHub to Growl",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "growler": "0.0.x",
+    "github": "0.1.x",
+    "cat-settings": "0.9.x",
+    "daemon": "1.1.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "stop": "kill `cat node.pid`"
+  }
+}
