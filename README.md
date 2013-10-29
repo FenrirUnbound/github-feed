@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/FenrirUnbound/github-feed.png?branch=master)](https://travis-ci.org/FenrirUnbound/github-feed)
+
 # GithubFeed
 
 
