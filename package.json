@@ -3,6 +3,10 @@
   "description": "Feeding Events from GitHub to Growl",
   "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/FenrirUnbound/github-feed.git"
+  }
   "dependencies": {
     "growler": "0.0.x",
     "github": "0.1.x",
