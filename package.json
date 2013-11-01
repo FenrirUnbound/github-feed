@@ -1,20 +1,43 @@
 {
-  "name": "github-growl",
+  "name": "github-feed",
   "description": "Feeding Events from GitHub to Growl",
-  "version": "1.0.0",
-  "private": true,
+  "author": "Darren Matsumoto <bobafett@yahoo-inc.com>",
+  "version": "2.0.0",
+  "contributors": [
+    {
+      "name": "Darren Matsumoto",
+      "email": "bobafett@yahoo-inc.com"
+    },
+    {
+      "name": "St. John Johnson",
+      "email": "stjohn@yahoo-inc.com"
+    },
+    {
+      "name": "Peter Peterson",
+      "email": "petey@yahoo-inc.com"
+    }
+  ],
+  "preferGlobal": true,
+  "dependencies": {
+    "osx-notifier": "0.2.x",
+    "github": "0.1.x",
+    "nconf": "0.6.x",
+    "daemon": "1.1.x",
+    "optimist": "0.6.x",
+    "growler": "0.0.x"
+  },
+  "devDependencies": {
+    "yuitest": "*",
+    "ytestrunner": "*",
+    "jslint": "*",
+    "mockery": "1.4.x"
+  },
+  "scripts": {
+    "test": "ytestrunner --coverage"
+  },
+  "bin": "./bin/github-feed.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/FenrirUnbound/github-feed.git"
-  },
-  "dependencies": {
-    "growler": "0.0.x",
-    "github": "0.1.x",
-    "cat-settings": "0.9.x",
-    "daemon": "1.1.x"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "stop": "kill `cat node.pid`"
   }
 }

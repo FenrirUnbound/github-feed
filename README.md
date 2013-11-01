@@ -2,17 +2,23 @@
 
 # GithubFeed
 
-
 ## Installation
 
-    npm install
+    npm -g install
 
 ## Execution
 
-    npm start
-    npm stop
+    $ github-feed
+    Feed GitHub events into OS X Notification Center
+
+    Usage: github-feed
+
+    Options:
+      --start                       Start the service
+      --stop                        Stop the service
+      --set[.setting]=[value]  Set/view settings
 
 ## Dependencies
 
- * [Growl](http://growl.info/)
  * [NodeJS](http://nodejs.org/)
+ * [Terminal Notifier](https://github.com/alloy/terminal-notifier#download)
