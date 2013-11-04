@@ -15,7 +15,7 @@ var util = require('util'),
  * @param {String} options.ignoreEvents Events to ignore
  * @param {String} options.githubHost GitHub Host
  * @param {String} options.githubApiHost GitHub API Host
- * @param {String} options.githubApi GitHub API URL
+ * @param {String} options.githubApiPath GitHub API URL
  * @param {Int} options.delay Delay between polls in n milliseconds
  */
 function GitHubListener(options) {
@@ -31,7 +31,7 @@ function GitHubListener(options) {
     this._github = new GitHub({
         version: '3.0.0',
         host: options.githubApiHost,
-        url: options.githubApi,
+        url: options.githubApiPath,
         timeout: 5000
     });
 

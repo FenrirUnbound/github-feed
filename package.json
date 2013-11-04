@@ -2,7 +2,7 @@
   "name": "github-feed",
   "description": "Feeding Events from GitHub to Growl",
   "author": "Darren Matsumoto <bobafett@yahoo-inc.com>",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "contributors": [
     {
       "name": "Darren Matsumoto",
